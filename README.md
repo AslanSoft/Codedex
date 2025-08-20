@@ -15,3 +15,17 @@ Print them out using console.log().
 ```
 
 ### my answer 
+
+```
+
+let companyName = "Aslan";
+let foundingYear = 2025;
+let isActive = true;
+let fundingAmount;
+
+console.log(companyName);
+console.log(foundingYear);
+console.log(isActive);
+console.log(fundingAmount);
+
+```
