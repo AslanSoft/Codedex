@@ -130,7 +130,10 @@ Once you are done, post a screenshot of your code to Twitter by clicking the ico
 
 ```
 
-let destination_weight = 75 * 0.38;
-console.log(destination_weight);
+let earthWeight = 75
+let result = destination_weight = earthWeight * 0.38;
+console.log("Your weight on Earth is " + earthWeight + " pounds.");
+console.log("Your weight on Mars is " + result + " pounds.");
+
 
 ```
