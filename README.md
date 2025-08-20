@@ -29,3 +29,37 @@ console.log(isActive);
 console.log(fundingAmount);
 
 ```
+
+### 2-question
+
+```
+
+Let's put these operators to use!
+
+Create a temperature.js program that converts a temperature from Fahrenheit (°F) to Celsius (°C).
+
+Google the current temperature of Brooklyn, NY (where Codédex is based) in °F.
+
+Use the following formula and write it out in JavaScript:
+
+
+Celsius= 
+1.8
+(Fahrenheit−32)
+​
+Print out the converted temperature using console.log().
+
+```
+
+### my answer
+
+```
+
+const fahrenheit = 70;
+const celcius = 32;
+
+let tip = (fahrenheit - celcius) / 1.8;
+
+console.log(tip)
+
+```
