@@ -137,3 +137,28 @@ console.log("Your weight on Mars is " + result + " pounds.");
 
 
 ```
+
+### 5-question 
+
+```
+
+All you need to know is that this program simulates a coin toss:
+
+≈ 50% of the time, it's "Heads".
+≈ 50% of the time, it's "Tails".
+
+```
+
+### my answer
+
+```
+
+let num = Math.random();
+
+if (num > 0.5) {
+  console.log("Heads");
+} else {
+  console.log("Tails");
+}
+
+```
