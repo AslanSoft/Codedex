@@ -291,3 +291,46 @@ else{
 }
 
 ```
+
+### 10-question
+
+```
+
+Rock Paper Scissors is a classic game that resonates with folks from around the world. The rules are as follows:
+
+Rock beats Scissors.
+Scissors beat Paper.
+Paper beats Rock.
+Let's use conditionals, the random number generator, and create a program that simulates the game between the player and the computer!
+
+Begin with a player variable and give it a 0 to represent "Rock", a 1 to represent "Paper", or a 2 to represent "Scissors."
+
+Then use Math.random() to generate a number between 0 and 2 for another computer variable.
+
+Then, use conditionals to compare the values of player and computer to see who wins!
+
+```
+
+### my answer
+
+```
+
+let player = Math.floor(Math.random() * 2) + 1;     // 1 = Rock, 2 = Paper
+let computer = Math.floor(Math.random() * 2) + 1;
+
+let rock = 1;
+let paper = 2;
+
+if (player === rock && computer === paper) {
+  console.log("Player picked: Rock");
+  console.log("Computer picked: Paper");
+  console.log("❌ Computer won!");
+} else if (player === paper && computer === rock) {
+  console.log("Player picked: Paper");
+  console.log("Computer picked: Rock");
+  console.log("✅ Player won!");
+} else if (player === computer) {
+  console.log("Оба выбрали одно и то же → Ничья!");
+}
+
+```
