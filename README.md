@@ -334,3 +334,29 @@ if (player === rock && computer === paper) {
 }
 
 ```
+
+### 11-question
+
+```
+
+👉 In the game, a player walks around their friends, tapping their heads. Each time, they say either “Duck” or “Goose.” If they say “Goose,” that person chases them around the circle and tags them. Then, it’s the next player’s turn.
+
+📌 Task:
+Inside the scripts/duck-duck-goose.js file, write a program that simulates this game.
+
+```
+
+### my answer
+
+```
+
+let randomNumber = Math.floor(Math.random() * 10);
+
+while (randomNumber !== 7) {
+  console.log("Duck 🦆");
+  randomNumber = Math.floor(Math.random() * 10);
+}
+
+console.log("Goose! 🦢");
+
+```
