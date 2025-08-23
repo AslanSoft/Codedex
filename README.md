@@ -360,3 +360,31 @@ while (randomNumber !== 7) {
 console.log("Goose! 🦢");
 
 ```
+
+### 12-question 
+
+```
+Next, create a while loop that runs as long as the guess and the luckyNumber are not equal. Each time, print the incorrect number and then print the luckyNumber outside the loop.
+
+The output should look like the following:
+
+Nope, it isn't  5
+Nope, it isn't  9
+Nope, it isn't  4
+My lucky number is 10!
+
+```
+
+### my answer
+
+```
+let luckyNumber = 7;
+let guest = Math.floor(Math.random() * 10 + 1);
+if(guest == 7){
+  console.log("My lucky number is 7!")
+}
+else{
+  console.log("Nope, it isn't  " + guest);
+}
+
+```
